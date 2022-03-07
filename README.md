@@ -11,6 +11,6 @@ you need to continue to step 5.
 7. Type "Y". This command is used to change the Execution Policy which protects you from untrusted scripts. You should deactivate it later after you are done activating your virtual environment.
 8. Go back to your IDE terminal and write "venv\Scripts\activate" to activate the virtual environment.
 9. You should see "(venv)" keyword before your directory path. It means that your virtual environemnt has successfully activated.
-10. Remember, after you are done activating the virtual environment, don't forget to restrict the Execution Policy back to default. To do this, go back to your PowerShell and write "Set-ExecutionPolicy Restricted"
+10. Remember, after you are done activating the virtual environment, don't forget to restrict the Execution Policy back to default. To do this, go back to your PowerShell and write "Set-ExecutionPolicy Restricted" and choose "Y".
 11. To acquire all the requirements installed in the virtual environment, you need to type "freeze > requirement.txt" on your virtual environment project terminal. You should see a new file called "requirements.txt" appear on your project folder.
 12. You are done.
